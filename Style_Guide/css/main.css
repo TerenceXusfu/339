@@ -1,0 +1,436 @@
+header{
+  background: #C6AF92;
+}
+
+.logo{
+  float: left;
+  width: 5rem;
+  height: 1rem;
+}
+
+header::after{
+  content:'';
+  display: table;
+  clear:both;
+}
+
+body {
+  font-weight: 400;
+  padding: 2rem;
+  font-family: meta;
+}
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+nav li{
+  display:inline-block;
+  margin-left: 3.5rem;
+  padding-bottom:1rem;
+
+  position:relative;
+}
+
+nav a{
+  font-family: meta;
+  color:#FFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover{
+  color: #000;
+}
+
+nav a::before{
+  content:'';
+  display: block;
+  height: 2px;
+  background-color: #000;
+
+  position: absolute;
+  top: 1.3rem;
+  width: 0%;
+
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+
+
+h1 {
+  font-family: egostalight;
+	font-size: 3rem;
+  color: #74774E;
+}
+
+h2 {
+  font-family: egostalight;
+	font-size: 2rem;
+  color: #C6AF92;
+  margin-top: 3rem;
+}
+
+h3{
+  font-family: egostalight;
+	font-size: 1.5rem;
+  color: #74774E;
+}
+
+p {
+  font-family: meta;
+	font-size: 1rem;
+  color: #C6AF92;
+}
+
+div {
+	box-sizing: content-box;
+/*	width: 50%;  */
+	padding: 1rem;
+	margin: 0rem;
+
+/*	background-color: #C6AF92; */
+	color: #C6AF92;
+}
+
+a{
+  color:#74774E
+}
+
+a:hover,
+a:focus,
+a:active{
+  color:black;
+  text-decoration:none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ /*-------Style Guide------*/
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* 1:2 ratio column */
+  gap: 50px; /* Adjust the gap between the columns */
+}
+
+.text {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #C6AF92;
+  border: none;
+  color: white;
+  padding: 1rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: meta;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.submit-button:hover {
+  background-color: #74774E
+}
+
+.reset-button {
+  background-color: transparent;
+  border: 1px solid #C6AF92;
+  color: #C6AF92;
+  padding: 1rem 5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: meta;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #74774E
+}
+
+.radio{
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  color: #C6AF92;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.radio + .radio{
+  margin-left: 20px;
+}
+
+.radio input[type="radio"]{
+  display: none;
+}
+
+.radio span{
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: 2px solid #C6AF92;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 1rem;
+}
+
+.radio span:after{
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #C6AF92;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out;
+}
+
+.radio input[type="radio"]:checked ~ span:after{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.image_link a {
+  display: inline-block;
+  width: 20rem;
+  height: auto;
+}
+
+.image_link a:hover img {
+  opacity: 0.8;
+  border: 0.2rem solid #C6AF92;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+ol li {
+  margin-bottom: 10px;
+  font-family: meta;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.typography {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex-basis: calc(50% - 10px);
+  color: #FFF;
+  background-color: #f0f0f0;
+  font-family: meta;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+ /*-------Cart Items------*/
+
+
+.cart-page{
+  margin: 80px auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+th{
+  text-align: left;
+  padding: 5px;
+  color: #FFF;
+  background: #74774E;
+  font-weight: normal;
+  font-family: meta;
+}
+
+td{
+  padding: 10px 5px;
+}
+
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a{
+  color: #74774E;
+  font-size: 12px;
+}
+
+td img{
+  width: 10rem;
+  height: auto;
+  margin-right: 10px;
+}
+
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #74774E;
+  width: 100%;
+  max-width: 300px;
+}
+
+
+/*----checkout session----*/
+
+.pay_container{
+  width:100%;
+  max-width: 750px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.pay_container h1{
+  text-align: center;
+}
+
+.first-row{
+  display: flex;
+}
+
+.owner{
+  width: 100%;
+  margin-right: 40px;
+}
+
+.input-field{
+  border: 1px solid #C6AF92;
+  width: 100%;
+}
+
+.input-field input{
+  border-width: 20rem;
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+}
+
+.selection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selection select{
+  padding: 10px 20px;
+}
+
+
+.pay_container a{
+  background-color: #C6AF92;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 16px;
+  font-family: meta;
+  transition: 0.5s;
+  margin-left: 30px;
+  width:100%;
+  max-width: 42rem;
+}
+
+.pay_container a:hover{
+  background-color: #74774E;
+}
+
+.cards img{
+  width: 100px;
+}
+
+.input-field label{
+  color: #999;
+  font-family: meta;
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+
+/*----Products session----*/
+.products .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.products .box-container .box{
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  border:0.1rem solid rgba(0, 0, 0, 1)
+}
+
+.products .box-container .box:hover{
+  opacity: 0.8;
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  border:0.2rem solid #C6AF92
+}
+
+/*
+td:last-child{
+  text-align: right;
+}
+
+th:last-child{
+  text-align: right;
+}
+
