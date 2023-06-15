@@ -8,7 +8,6 @@
 
   <link href="css/main.css" rel="stylesheet">
 
-
 </head>
 
 <body>
@@ -27,8 +26,34 @@
       </nav>
     </div>
   </header>
-  <h1>Particle - Style Guide</h1>
 
+  <div class="image-container">
+    <img src="img/emp.jpeg" alt="">
+    <div class="overlay">
+      <img src="img/new_tag.png" alt="new tag">
+    </div>
+    <div class="overlay-text">
+      <h2>Eames Wire Chairs</h2>
+      <p>Eames Office thrived on collaborations with clients and creative partners like textile master Alexander Girard. Step into the world, we learn about what inspired the duo’s collaboration with Eames classics.</p>
+      <button class="submit-button">Explore</button>
+    </div>
+  </div>
+
+  <h1>Particle - Style Guide</h1>
+  <header>
+    <div class="container">
+      <img src="img/logo.png" alt="logo" class="logo">
+
+      <nav>
+        <ul>
+          <li><a href="#text_styling">Text Styling</a>
+          <li><a href="#style">Style</a>
+          <li><a href="#interactive_element">Interactive Element</a>
+          <li><a href="#combine_element">Combine Element</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <div class="intro">
     <div class="text">
       <p>This is a <a href="https://www.masterclass.com/articles/modern-design-guide#">modern style furniture</a>
@@ -49,7 +74,7 @@
   </div>
   <br>
   <br>
-  <h2>Typography</h2>
+  <h2 id="text_styling">Typography</h2>
   <div class="typography">
     <div class="grid-item" style="background-color: #000">
       <h1>Heading One</h1>
@@ -82,7 +107,7 @@
     </ol>
   </div>
 
-  <h2>Colour Palettes</h2>
+  <h2 id="style">Colour Palettes</h2>
   <div class="grid-container">
     <div class="grid-item" style="background-color: #C6AF92">#C6AF92 <br><br>Main Colour / Body Text Colour</div>
     <div class="grid-item" style="background-color: #74774E;">#74774E <br><br>Highlighted Content / Heading 1&3 Colour
@@ -92,15 +117,17 @@
     <div class="grid-item" style="background-color: #FFF;">#FFFFFF <br><br>Background Colour</div>
   </div>
 
-  <h2>Submit and reset button</h2>
+  <h2 id="interactive_element">Submit and reset button</h2>
   <button class="submit-button">Submit</button>
   <button class="reset-button">Reset</button>
 
 
   <h2>Text Input</h2>
-  <div class="input-field">
-    <label for="input-field">Enter text</label>
-    <input type="text">
+  <div class="text_input">
+    <div class="input-field">
+      <label for="input-field">Enter text</label>
+      <input type="text">
+    </div>
   </div>
 
   <h2>Radio Button</h2>
@@ -123,8 +150,9 @@
       <img src="img/Capelli_stool.png" alt="Image Description">
     </a>
   </div>
+  </section>
 
-  <h2>Main Navigation</h2>
+  <h2 id="combine_element">Navigation</h2>
   <header>
     <div class="container">
       <img src="img/logo.png" alt="logo" class="logo">
@@ -139,7 +167,6 @@
       </nav>
     </div>
   </header>
-  </section>
 
   <section class="products" id="products">
     <h2 class="heading"> Latest Products </h2>

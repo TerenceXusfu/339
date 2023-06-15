@@ -125,6 +125,56 @@ img {
   height: auto;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:10%;
+  height:auto;
+  display:center;
+  justify-content: center;
+  align-items:center;
+}
+
+.overlay-text p{
+  color: #FFF;
+}
+.overlay-text h2{
+  color: #FFF;
+}
+
+.overlay-text{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  display:center;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+
+.overlay-text button{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+
  /*-------Style Guide------*/
 
 .intro {
@@ -266,7 +316,10 @@ ol li {
   margin-bottom: 1rem;
 }
 
-
+.text_input{
+  width: 100%;
+  max-width: 24rem;
+}
  /*-------Cart Items------*/
 
 
@@ -288,7 +341,7 @@ table{
 
 th{
   text-align: left;
-  padding: 5px;
+  padding: 1rem;
   color: #FFF;
   background: #74774E;
   font-weight: normal;
@@ -332,7 +385,7 @@ td img{
 
 .pay_container{
   width:100%;
-  max-width: 750px;
+  max-width: 730px;
   background-color: white;
   display: flex;
   flex-direction: column;
