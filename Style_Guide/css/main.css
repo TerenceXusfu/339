@@ -417,6 +417,139 @@ th{
 
 
 /*----checkout session----*/
+input::placeholder{
+  padding-left: 1em;
+  color: grey;
+}
+
+.payment{
+  background-color: white;
+  border-style: none;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+  padding: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.p-mid-div{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width:60em){
+  .p-mid-div{
+      flex-direction: column;
+  }
+  .p-mid-right-div{
+      margin-top: 3em;
+  }
+  .p-mid-left-name{
+      flex-direction: column;
+  }
+  .p-mid-right-topro{
+      flex-direction: column;
+  }
+  .short-input{
+    margin-top: 2em;
+  }
+  .mid-input{
+    margin-top: 2em;
+  }
+}
+.p-mid-left-div{
+  flex: 2;
+}
+.p-mid-left-header{
+  font-style:italic;
+  font-weight: bold;
+}
+.p-mid-left-name{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  padding:0;
+}
+
+.short-input{
+  height: 5em;
+  width: 30%;
+  border: 1px solid #C6AF92;
+}
+.mid-input{
+  height: 5em;
+  width: 40%;
+  border: 1px solid #C6AF92;
+}
+.long-input{
+  height: 5em;
+  width:99%;
+  border: 1px solid #C6AF92;
+  margin-top: 2em;
+}
+.long-input:focus, .mid-input:focus, .short-input:focus{
+  border-width: 0.2em;
+}
+
+
+.p-mid-dec-div{
+  flex:0.6;
+}
+.p-mid-right-div{
+  flex: 2;
+}
+.p-mid-right-header{
+  font-style:italic;
+  font-weight: bold;
+}
+.p-mid-right-topro{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  padding:0;
+}
+.p-bottom-div{
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dc-card{
+  font-family: montserrat;
+  font-size: medium;
+  font-weight: 300;
+  height: 2em;
+  width: 15em;
+  border-style: none;
+  background-color: #2C2C2C;
+  color:white;
+}
+/*https://www.google.com/search?q=html+how+to+make+button+bigger+when+hovering&sxsrf=APwXEddgs2KSwuzTh-8ijPc1rXzUOkW6eg%3A1685506613496&ei=Ncp2ZKb6HZWz0PEPtNKe4A4&ved=0ahUKEwjm6Nq32Z7_AhWVGTQIHTSpB-wQ4dUDCA8&uact=5&oq=html+how+to+make+button+bigger+when+hovering&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIICAAQigUQhgMyCAgAEIoFEIYDOgQIIxAnOgcIIxCKBRAnOgcIABCKBRBDOg0IABCKBRCxAxCDARBDOg4IABCKBRCxAxCDARCRAjoICAAQigUQkQI6BQgAEIAEOgoIABCABBAUEIcCSgQIQRgAUABYtC1g7y5oAHAAeAWAAf0FiAGWM5IBDTEuMi41LjMuMy4zLjGYAQCgAQHAAQE&sclient=gws-wiz-serp#kpvalbx=_MMt2ZPD4Jrzg0PEPxqW14AU_28*/
+.dc-card:hover{
+  transform: scale(1.1);
+}
+.paypal{
+  margin-top: 1em;
+  font-family: montserrat;
+  font-size: medium;
+  font-style:italic;
+  font-weight: bold;
+  height: 2em;
+  width: 15em;
+  border-style: none;
+  background-color: #EABA53;
+  color:#072E78;
+}
+.paypal:hover{
+  transform: scale(1.1);
+}
+.p-button{
+  float:right;
+}
+
+
+
+
+
+
 
 .pay_container{
   margin: auto;
