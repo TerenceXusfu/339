@@ -1,3 +1,10 @@
+@media (min-width: 1260px) {
+  .box{
+    width: 30%;
+  }
+
+}
+
 header{
   background: #C6AF92;
 }
@@ -221,7 +228,7 @@ img {
   font-family: meta;
   transition-duration: 0.3s;
   cursor: pointer;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .submit-button:hover {
@@ -344,6 +351,10 @@ ol li {
 .cart-page{
   margin: 80px auto;
 }
+.cart-page .submit-button{
+  float: right;
+  /* margin: auto auto auto auto; */
+}
 
 .cart-page table{
   width: 100%;
@@ -357,7 +368,8 @@ ol li {
 }
 
 
-.cart-page th{
+th{
+
   text-align: left;
   padding: 1rem;
   color: #FFF;
@@ -371,6 +383,11 @@ ol li {
 }
 
 .cart-page td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+.about-middle-right input{
   width: 40px;
   height: 30px;
   padding: 5px;
@@ -402,6 +419,7 @@ ol li {
 /*----checkout session----*/
 
 .pay_container{
+  margin: auto;
   width:100%;
   max-width: 730px;
   background-color: white;
@@ -484,16 +502,17 @@ ol li {
 }
 
 .products .box-container .box{
-  flex: 1 1 30rem;
+  width: 100%;
+  flex: 1 1 20rem;
   border-radius: 0.5rem;
   border:0.1rem solid rgba(0, 0, 0, 1)
 }
 
 .products .box-container .box:hover{
   opacity: 0.8;
-  flex: 1 1 30rem;
+  flex: 1 1 20rem;
   border-radius: 0.5rem;
-  border:0.2rem solid #C6AF92
+  border:0.1rem solid #C6AF92
 }
 
 /*
@@ -503,5 +522,5 @@ td:last-child{
 
 th:last-child{
   text-align: right;
-}
+ } */
 
