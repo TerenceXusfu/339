@@ -20,6 +20,24 @@ body {
   font-family: meta;
 }
 
+footer{ 
+  flex: 1;
+  line-height: 2em;
+  background-color: #C6AF92;
+  display: flex;
+  flex-direction: row;
+  padding-left: 7em;
+
+
+}
+
+footer p{
+  color: #FFF;
+}
+footer h2{
+  color: #FFF;
+}
+
 
 .container{
   width: 80%;
