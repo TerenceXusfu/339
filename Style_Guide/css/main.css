@@ -221,7 +221,7 @@ img {
   font-family: meta;
   transition-duration: 0.3s;
   cursor: pointer;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .submit-button:hover {
