@@ -418,7 +418,6 @@ th{
 
 /*----checkout session----*/
 input::placeholder{
-  padding-left: 1em;
   color: grey;
 }
 
@@ -472,17 +471,20 @@ input::placeholder{
   height: 5em;
   width: 30%;
   border: 1px solid #C6AF92;
+  padding-left: 0.5em;
 }
 .mid-input{
   height: 5em;
-  width: 40%;
+  width: 45%;
   border: 1px solid #C6AF92;
+  padding-left: 0.5em;
 }
 .long-input{
   height: 5em;
-  width:99%;
+  width:98%;
   border: 1px solid #C6AF92;
   margin-top: 2em;
+  padding-left: 0.5em;
 }
 .long-input:focus, .mid-input:focus, .short-input:focus{
   border-width: 0.2em;
@@ -513,8 +515,8 @@ input::placeholder{
   align-items: center;
 }
 .dc-card{
-  font-family: montserrat;
-  font-size: medium;
+  font-family: meta;
+  font-size: 16px;
   font-weight: 300;
   height: 2em;
   width: 15em;
@@ -527,9 +529,9 @@ input::placeholder{
   transform: scale(1.1);
 }
 .paypal{
+  font-family: meta;
   margin-top: 1em;
-  font-family: montserrat;
-  font-size: medium;
+  font-size: 16px;
   font-style:italic;
   font-weight: bold;
   height: 2em;
@@ -543,6 +545,7 @@ input::placeholder{
 }
 .p-button{
   float:right;
+  margin-right: 4em;
 }
 
 
