@@ -557,10 +557,7 @@ input::placeholder{
 .paypal:hover{
   transform: scale(1.1);
 }
-.p-button{
-  float:right;
-  margin-right: 4em;
-}
+
 
 
 
