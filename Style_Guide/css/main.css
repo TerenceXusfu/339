@@ -50,6 +50,10 @@ footer p{
   margin-left: 40px;
 }
 
+footer a{
+  color: #FFF;
+}
+
 footer > div {
   width: 100%;
   text-align: left;
@@ -227,12 +231,8 @@ img {
   gap: 50px; /* Adjust the gap between the columns */
 }
 
-.text {
-  width: 100%;
-}
-
 .image {
-  width: 100%;
+  width: 90%;
 }
 
 .submit-button {
