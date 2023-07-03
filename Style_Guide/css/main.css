@@ -26,6 +26,7 @@ header::after{
 }
 
 body {
+  font-size: 1.2rem;
   font-weight: 400;
   padding: 2rem;
   font-family: meta;
@@ -135,7 +136,7 @@ h3{
 
 p {
   font-family: meta;
-	font-size: 1rem;
+	/* font-size: 1.2rem; */
   color: #C6AF92;
 }
 
