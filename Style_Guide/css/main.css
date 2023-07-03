@@ -417,11 +417,11 @@ th{
 
 .cart-page td a{
   color: #74774E;
-  font-size: 12px;
+  font-size: 0.8em;
 }
 
 .cart-page td img{
-  width: 10rem;
+  width: 11rem;
   height: auto;
   margin-right: 10px;
 }
