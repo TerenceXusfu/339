@@ -29,7 +29,7 @@
 .about-middle{
     display: flex;
     flex-direction: row;
-    margin-top: 5em;
+    margin-top: 2em;
 }
 @media (max-width:60em){
     .about-middle{
