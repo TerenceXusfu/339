@@ -7,7 +7,7 @@ var navToggle = document.querySelector("#nav-toggle");
 
 console.log(navToggle.classList);
 
-addEventListener("resize", () => {
+window.addEventListener("resize", () => {
     var width = window.innerWidth;
     console.log("window resized" + width);
     if (width < 600) {
