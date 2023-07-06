@@ -18,9 +18,9 @@
     min-width: 25em;
 }
 .about-top-img{
-    margin-left: 3em;
+    margin-left: 2em;
     flex:1;
-    width: 45em;
+    width: 10em;
     height: 40em;
     object-fit: cover;
 }
