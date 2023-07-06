@@ -1,27 +1,6 @@
 
 
 @media (min-width:480px) and (max-width:1023px){
-  .overlay-text h2{
-    font-size:2.5rem;
-  }
-  .overlay-text p{
-    font-size:2rem;
-    position: relative;
-  }
-
-  .submit-button {
-    background-color: #FFF;
-    border: none;
-    color: white;
-    padding: 2rem 10rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2rem;
-    font-family: meta;
-    transition-duration: 0.3s;
-    cursor: pointer;
-  }
 
   footer{
     font-size: 1.2rem;
@@ -49,6 +28,28 @@
     flex: 1 1 20rem;
     border-radius: 0.5rem;
     border:0.1rem solid rgba(0, 0, 0, 1)
+  }
+  .overlay-text h2{
+    font-size:2.5rem;
+  }
+  .overlay-text p{
+    font-size:2rem;
+    position: relative;
+  }
+
+
+  .submit-button {
+    background-color: #FFF;
+    border: none;
+    color: white;
+    padding: 2rem 10rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: meta;
+    transition-duration: 0.3s;
+    cursor: pointer;
   }
 }
 
@@ -267,7 +268,9 @@ img {
 .overlay-text button{
   position: absolute;
   top: 70%;
-  left: 40%;
+  left: 10%;
+  width: 80%;
+  display: center;
   justify-content: center;
   align-items: center;
 }
