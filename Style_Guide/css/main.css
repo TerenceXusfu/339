@@ -127,18 +127,38 @@ nav li{
   position:relative;
 }
 
-nav a{
+/* nav a{
+  font-family: meta;
+  color:#FFF;
+  text-decoration: none;
+  font-size: .9em;
+} */
+#nav-items a{
   font-family: meta;
   color:#FFF;
   text-decoration: none;
   font-size: .9em;
 }
 
-nav a:hover{
+#nav-toggle{
+  color:#74774E;
+}
+
+#nav-toggle a:hover{
+  color:#000000;
+}
+
+#nav-toggle.hidden, #nav-items.hidden{
+  visibility: hidden;
+  display: none;
+
+}
+
+#nav-items a:hover{
   color: #000;
 }
 
-nav a::before{
+#nav-items a::before{
   content:'';
   display: block;
   height: 2px;
