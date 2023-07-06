@@ -1,6 +1,54 @@
-@media (min-width: 1260px) {
-  .box{
-    width: 30%;
+
+
+@media (min-width:480px) and (max-width:1023px){
+  .overlay-text h2{
+    font-size:2.5rem;
+  }
+  .overlay-text p{
+    font-size:2rem;
+    position: relative;
+  }
+
+  .submit-button {
+    background-color: #FFF;
+    border: none;
+    color: white;
+    padding: 2rem 10rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: meta;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+
+  footer{
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+  }
+  .box-container h3{
+      font-size: 2rem;
+  }
+
+  .box-container p{
+    font-size: 2rem;
+}
+
+  .price{
+    font-size: 2rem;
+
+}
+
+
+}
+
+@media (min-width:1024px){
+  .products .box-container .box{
+    width: 100%;
+    flex: 1 1 20rem;
+    border-radius: 0.5rem;
+    border:0.1rem solid rgba(0, 0, 0, 1)
   }
 }
 
@@ -31,12 +79,6 @@ body {
   padding: 2rem;
   font-family: meta;
 }
-@media (max-width:50em){
-  footer{
-    flex-wrap: wrap;
-  }
-  
-}
 
 footer{ 
   flex: 1;
@@ -47,7 +89,7 @@ footer{
 }
 
 footer p{
-  color:#FFF;
+  color:#000;
   margin-left: 40px;
 }
 
@@ -101,7 +143,6 @@ nav a::before{
   display: block;
   height: 2px;
   background-color: #000;
-
   position: absolute;
   top: 1.3rem;
   width: 0%;
@@ -137,18 +178,13 @@ h3{
 p {
   font-family: meta;
   margin-top: 0%;
-	/* font-size: 1.2rem; */
   color: #74774E;
 }
 
 div {
 	box-sizing: content-box;
-/*	width: 50%;  */
 	padding: 1rem;
 	margin: 0rem;
-
-/*	background-color: #C6AF92; */
-	color: #C6AF92;
 }
 
 a{
@@ -167,14 +203,6 @@ img {
   height: auto;
 }
 
-@media (max-width:60em){
-  .overlay-text h2{
-    font-size:1rem;
-  }
-  .overlay-text p{
-    font-size:0.75rem;
-  }
-}
 .image-container {
   position: relative;
   display: inline-block;
@@ -220,21 +248,14 @@ img {
   position: absolute;
   top: 70%;
   left: 40%;
-  display: center;
   justify-content: center;
   align-items: center;
 }
 
  /*-------Style Guide------*/
 
-.intro {
-  display: grid;
-  grid-template-columns: 1fr 2fr; /* 1:2 ratio column */
-  gap: 50px; /* Adjust the gap between the columns */
-}
-
 .image {
-  width: 90%;
+  width: 100%;
 }
 
 .submit-button {
@@ -456,6 +477,8 @@ input::placeholder{
   display: flex;
   flex-direction: row;
 }
+
+/*
 @media (max-width:60em){
   .p-mid-div{
       flex-direction: column;
@@ -476,6 +499,8 @@ input::placeholder{
     margin-top: 2em;
   }
 }
+*/
+
 .p-mid-left-div{
   flex: 2;
 }
@@ -659,7 +684,6 @@ input::placeholder{
 
 .products .box-container .box{
   width: 100%;
-  flex: 1 1 20rem;
   border-radius: 0.5rem;
   border:0.1rem solid rgba(0, 0, 0, 1)
 }
