@@ -31,7 +31,8 @@
 
 .about-middle{
     flex-direction: row;
-    margin-top: 2em;
+    margin-top: 1em;
+    overflow: auto;
 }
 
 @media (max-width:1024px){
