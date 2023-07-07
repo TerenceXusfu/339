@@ -66,11 +66,6 @@ header{
 	z-index: 10;
 }
 
-.sticky{
-  position: sticky;
-  top: 2.5em
-}
-
 .small_img{
   flex-direction: row;
 }
