@@ -54,7 +54,10 @@
 }
 
 header{
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   background: #C6AF92;
   position: sticky;
 	top: 2.5em;
