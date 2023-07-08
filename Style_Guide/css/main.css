@@ -298,6 +298,7 @@ img {
 
 .submit-button {
   background-color: #C6AF92;
+  width: 20rem;
   max-width: 50rem;
   border: none;
   color: white;
@@ -305,7 +306,7 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* font-size: 1rem; */
+  font-size: 20px;
   font-family: meta;
   transition-duration: 0.3s;
   cursor: pointer;
@@ -317,6 +318,7 @@ img {
 
 .reset-button {
   background-color: transparent;
+  width: 20rem;
   max-width: 50rem;
   border: 1px solid #C6AF92;
   color: #C6AF92;
@@ -324,7 +326,7 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* font-size: 16px; */
+  font-size: 20px;
   font-family: meta;
   transition-duration: 0.3s;
   cursor: pointer;
